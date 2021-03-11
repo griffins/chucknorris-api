@@ -1,0 +1,19 @@
+{
+  "name": "chucknorris-server",
+  "version": "1.0.0",
+  "description": "SovTech Apollo Server for Chuck Norris jokes API",
+  "main": "src/index.ts",
+  "author": "Griffins Oringo",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-datasource-rest": "^0.10.0",
+    "apollo-server": "^2.21.1",
+    "graphql": "^15.5.0",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.ts"
+  }
+}
